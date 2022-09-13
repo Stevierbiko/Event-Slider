@@ -1,0 +1,71 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none; 
+    border:none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+section{
+    padding: 2rem 9%;
+}
+.header{
+    position: fixed;
+    top: 0; right: 0; left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 9%;
+}
+.header .navbar a{
+    font-size: 1.7rem;
+    color: #222;
+    margin-left: 2rem;
+}
+#menu-bars{
+    font-size: 3rem;
+    color: #222;
+    cursor: pointer;
+    display: none;
+}
+.home .content{
+    text-align: center;
+    padding-top: 6rem;
+    margin: 2rem auto;
+    max-width: 70rem;
+}
+.home .content h3{
+    color: #222;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+}
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .7rem .3rem;
+    font-size: 1.7rem;
+    background: aqua;
+    color:#666;
+    cursor: pointer;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: .5rem;
+    width: 50%;
+}
+.home .home-slider{
+    overflow: hidden;
+    height: 50rem;
+    width: 35rem;
+}
+.home .home-slider swiper-slide img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
